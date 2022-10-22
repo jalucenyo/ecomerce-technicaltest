@@ -7,5 +7,7 @@ public record PriceResponse(
     Long productId,
     Long brandId,
     BigDecimal price,
-    OffsetDateTime applyDate
+    OffsetDateTime startDate,
+    OffsetDateTime endDate,
+    Long priceList
 ) { }
