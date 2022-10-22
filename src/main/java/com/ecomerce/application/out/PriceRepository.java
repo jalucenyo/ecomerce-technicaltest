@@ -3,10 +3,10 @@ package com.ecomerce.application.out;
 import com.ecomerce.domain.Price;
 import com.ecomerce.domain.PriceFilter;
 
-import java.util.Optional;
+import java.util.List;
 
 public interface PriceRepository {
 
-  Optional<Price> find(PriceFilter filter);
+  List<Price> find(PriceFilter filter);
 
 }
